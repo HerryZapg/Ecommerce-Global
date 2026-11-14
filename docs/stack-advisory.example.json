@@ -1,0 +1,10 @@
+{
+  "schema_version": 3,
+  "last_reviewed": null,
+  "context7_overrides": {
+    "example-tech": {
+      "status": "pending",
+      "note": "Replace with Context7-verified entries after stack-governance S4"
+    }
+  }
+}

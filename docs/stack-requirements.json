@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "feature": "InventaStock Pro \u2014 B2B inventory multi-warehouse",
+  "required_technologies": [
+    {
+      "id": "next",
+      "name": "next",
+      "package": "next",
+      "recommended": "15.2.0",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "react",
+      "name": "react",
+      "package": "react",
+      "recommended": "18.3.1",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "react-dom",
+      "name": "react-dom",
+      "package": "react-dom",
+      "recommended": "18.3.1",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "typescript",
+      "name": "typescript",
+      "package": "typescript",
+      "recommended": "5.6.3",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "tailwindcss",
+      "name": "tailwindcss",
+      "package": "tailwindcss",
+      "recommended": "3.4.17",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "prisma",
+      "name": "prisma",
+      "package": "prisma",
+      "recommended": "4.16.0",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "prisma-client",
+      "name": "@prisma/client",
+      "package": "@prisma/client",
+      "recommended": "4.16.0",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "next-auth",
+      "name": "next-auth",
+      "package": "next-auth",
+      "recommended": "5.0.0-beta.25",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "auth-prisma-adapter",
+      "name": "@auth/prisma-adapter",
+      "package": "@auth/prisma-adapter",
+      "recommended": "2.7.4",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "ai",
+      "name": "ai",
+      "package": "ai",
+      "recommended": "2.2.31",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "openai",
+      "name": "openai",
+      "package": "openai",
+      "recommended": "4.104.0",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "stripe",
+      "name": "stripe",
+      "package": "stripe",
+      "recommended": "12.0.0",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "recharts",
+      "name": "recharts",
+      "package": "recharts",
+      "recommended": "2.0.0",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "turbo",
+      "name": "turbo",
+      "package": "turbo",
+      "recommended": "2.9.14",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "sendgrid-mail",
+      "name": "@sendgrid/mail",
+      "package": "@sendgrid/mail",
+      "recommended": "8.1.6",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "cypress",
+      "name": "cypress",
+      "package": "cypress",
+      "recommended": "15.15.0",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "upstash-redis",
+      "name": "@upstash/redis",
+      "package": "@upstash/redis",
+      "recommended": "1.34.3",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "java",
+      "name": "java",
+      "package": "java",
+      "recommended": "17.0.2",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "spring-boot",
+      "name": "spring-boot",
+      "package": "spring-boot",
+      "recommended": "2.7.18",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "kafka",
+      "name": "kafka",
+      "package": "kafka",
+      "recommended": "3.2.0",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "postgresql",
+      "name": "postgresql",
+      "package": "postgresql",
+      "recommended": "14.10",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "lombok",
+      "name": "lombok",
+      "package": "lombok",
+      "recommended": "1.18.30",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    },
+    {
+      "id": "stripe-java",
+      "name": "stripe-java",
+      "package": "stripe-java",
+      "recommended": "24.0.0",
+      "required": true,
+      "rationale": "stack approved (G-STACK-CLOSE)"
+    }
+  ],
+  "last_updated": "2026-05-25",
+  "approval_option": "A",
+  "approval_risks": "spring-boot 2.7.18 OSS EOL (Jun 2023); postgresql 14 EOL Nov 2026; ai 2.x legacy streaming API per PRD snippet; kafka.version override in Maven for 3.2; dual auth JWT Java + Auth.js"
+}

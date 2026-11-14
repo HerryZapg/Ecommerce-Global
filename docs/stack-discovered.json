@@ -1,0 +1,257 @@
+{
+  "generated_by": "scripts/lib/stack_discover.py",
+  "count": 27,
+  "technologies": [
+    {
+      "id": "auth-prisma-adapter",
+      "name": "@auth/prisma-adapter",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "2.7.4",
+      "package": "@auth/prisma-adapter"
+    },
+    {
+      "id": "prisma-client",
+      "name": "@prisma/client",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "4.16.0",
+      "package": "@prisma/client"
+    },
+    {
+      "id": "sendgrid-mail",
+      "name": "@sendgrid/mail",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "8.1.6",
+      "package": "@sendgrid/mail"
+    },
+    {
+      "id": "types-node",
+      "name": "@types/node",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:devDependencies",
+      "installed_spec": "^20",
+      "package": "@types/node"
+    },
+    {
+      "id": "types-react",
+      "name": "@types/react",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:devDependencies",
+      "installed_spec": "^18",
+      "package": "@types/react"
+    },
+    {
+      "id": "types-react-dom",
+      "name": "@types/react-dom",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:devDependencies",
+      "installed_spec": "^18",
+      "package": "@types/react-dom"
+    },
+    {
+      "id": "upstash-redis",
+      "name": "@upstash/redis",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "1.34.3",
+      "package": "@upstash/redis"
+    },
+    {
+      "id": "ai",
+      "name": "Ai",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "2.2.31",
+      "package": "ai"
+    },
+    {
+      "id": "autoprefixer",
+      "name": "Autoprefixer",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:devDependencies",
+      "installed_spec": "10.4.20",
+      "package": "autoprefixer"
+    },
+    {
+      "id": "ci-node",
+      "name": "Ci Node",
+      "category": "backend",
+      "check": "manual",
+      "source": ".github/workflows (CI pin)",
+      "installed_spec": "20",
+      "package": null
+    },
+    {
+      "id": "cypress",
+      "name": "Cypress",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:devDependencies",
+      "installed_spec": "15.15.0",
+      "package": "cypress"
+    },
+    {
+      "id": "next-auth",
+      "name": "Next Auth",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "5.0.0-beta.25",
+      "package": "next-auth"
+    },
+    {
+      "id": "openai",
+      "name": "Openai",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "4.104.0",
+      "package": "openai"
+    },
+    {
+      "id": "postcss",
+      "name": "Postcss",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:devDependencies",
+      "installed_spec": "8.4.49",
+      "package": "postcss"
+    },
+    {
+      "id": "prisma",
+      "name": "Prisma",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "4.16.0",
+      "package": "prisma"
+    },
+    {
+      "id": "recharts",
+      "name": "Recharts",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "2.0.0",
+      "package": "recharts"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "12.0.0",
+      "package": "stripe"
+    },
+    {
+      "id": "turbo",
+      "name": "Turbo",
+      "category": "backend",
+      "check": "npm_package",
+      "source": "package.json:devDependencies",
+      "installed_spec": "2.9.14",
+      "package": "turbo"
+    },
+    {
+      "id": "eslint",
+      "name": "ESLint",
+      "category": "frontend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:devDependencies",
+      "installed_spec": "^9",
+      "package": "eslint"
+    },
+    {
+      "id": "eslint-config-next",
+      "name": "Eslint Config Next",
+      "category": "frontend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:devDependencies",
+      "installed_spec": "15.2.0",
+      "package": "eslint-config-next"
+    },
+    {
+      "id": "next",
+      "name": "Next.js",
+      "category": "frontend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "15.2.0",
+      "package": "next"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "category": "frontend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "18.3.1",
+      "package": "react"
+    },
+    {
+      "id": "react-dom",
+      "name": "React DOM",
+      "category": "frontend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:dependencies",
+      "installed_spec": "18.3.1",
+      "package": "react-dom"
+    },
+    {
+      "id": "tailwindcss",
+      "name": "Tailwind CSS",
+      "category": "frontend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:devDependencies",
+      "installed_spec": "3.4.17",
+      "package": "tailwindcss"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "category": "frontend",
+      "check": "npm_package",
+      "source": "apps/web/package.json:devDependencies",
+      "installed_spec": "5.6.3",
+      "package": "typescript"
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "category": "web-platform",
+      "check": "manual",
+      "source": "discovery:web app package.json present",
+      "installed_spec": "project uses HTML/CSS output",
+      "package": null
+    },
+    {
+      "id": "html",
+      "name": "HTML (living standard)",
+      "category": "web-platform",
+      "check": "manual",
+      "source": "discovery:web app package.json present",
+      "installed_spec": "project uses HTML/CSS output",
+      "package": null
+    }
+  ],
+  "orphaned_advisory_overrides": [
+    "java",
+    "spring-boot",
+    "kafka",
+    "postgresql",
+    "lombok",
+    "stripe-java"
+  ]
+}

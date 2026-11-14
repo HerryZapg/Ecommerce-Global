@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# builds
+.next/
+out/
+build/
+dist/
+backend/target/
+.turbo/
+
+# local env and databases
+.env
+.env.*
+!.env.example
+apps/web/prisma/*.db
+apps/web/prisma/*.db-journal
+
+# python
+__pycache__/
+*.py[cod]
+
+# ide / os
+.DS_Store
+.idea/
+*.log
+*.tsbuildinfo
+
+# Windows reserved-name artifact created by accident
+/nul

@@ -1,0 +1,190 @@
+{
+  "schema_version": 3,
+  "last_reviewed": "2026-05-25",
+  "context7_overrides": {
+    "next": {
+      "recommended": "15.2.0",
+      "package": "next",
+      "context7": {
+        "status": "resolved",
+        "resolved_at": "2026-05-25",
+        "failure_reason": null
+      }
+    },
+    "react": {
+      "recommended": "18.3.1",
+      "package": "react",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "react-dom": {
+      "recommended": "18.3.1",
+      "package": "react-dom",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "typescript": {
+      "recommended": "5.6.3",
+      "package": "typescript",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "tailwindcss": {
+      "recommended": "3.4.17",
+      "package": "tailwindcss",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "prisma": {
+      "recommended": "4.16.0",
+      "package": "prisma",
+      "context7": {
+        "status": "resolved",
+        "resolved_at": "2026-05-25",
+        "failure_reason": null
+      }
+    },
+    "prisma-client": {
+      "recommended": "4.16.0",
+      "package": "@prisma/client",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "next-auth": {
+      "recommended": "5.0.0-beta.25",
+      "package": "next-auth",
+      "context7": {
+        "status": "resolved",
+        "resolved_at": "2026-05-25",
+        "failure_reason": null
+      }
+    },
+    "auth-prisma-adapter": {
+      "recommended": "2.7.4",
+      "package": "@auth/prisma-adapter",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "ai": {
+      "recommended": "2.2.31",
+      "package": "ai",
+      "context7": {
+        "status": "resolved",
+        "resolved_at": "2026-05-25",
+        "failure_reason": null
+      }
+    },
+    "openai": {
+      "recommended": "4.104.0",
+      "package": "openai",
+      "context7": {
+        "status": "resolved",
+        "resolved_at": "2026-05-25",
+        "failure_reason": null
+      }
+    },
+    "stripe": {
+      "recommended": "12.0.0",
+      "package": "stripe",
+      "context7": {
+        "status": "resolved",
+        "resolved_at": "2026-05-25",
+        "failure_reason": null
+      }
+    },
+    "recharts": {
+      "recommended": "2.0.0",
+      "package": "recharts",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "turbo": {
+      "recommended": "2.9.14",
+      "package": "turbo",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "sendgrid-mail": {
+      "recommended": "8.1.6",
+      "package": "@sendgrid/mail",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "cypress": {
+      "recommended": "15.15.0",
+      "package": "cypress",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "upstash-redis": {
+      "recommended": "1.34.3",
+      "package": "@upstash/redis",
+      "context7": {
+        "status": "resolved",
+        "resolved_at": "2026-05-25",
+        "failure_reason": null
+      }
+    },
+    "java": {
+      "recommended": "17.0.2",
+      "package": "java",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "spring-boot": {
+      "recommended": "2.7.18",
+      "package": "spring-boot",
+      "context7": {
+        "status": "resolved",
+        "resolved_at": "2026-05-25",
+        "failure_reason": null
+      }
+    },
+    "kafka": {
+      "recommended": "3.2.0",
+      "package": "kafka",
+      "context7": {
+        "status": "resolved",
+        "resolved_at": "2026-05-25",
+        "failure_reason": null
+      }
+    },
+    "postgresql": {
+      "recommended": "14.10",
+      "package": "postgresql",
+      "context7": {
+        "status": "manual"
+      }
+    },
+    "lombok": {
+      "recommended": "1.18.30",
+      "package": "lombok",
+      "context7": {
+        "status": "registry"
+      }
+    },
+    "stripe-java": {
+      "recommended": "24.0.0",
+      "package": "stripe-java",
+      "context7": {
+        "status": "resolved",
+        "resolved_at": "2026-05-25",
+        "failure_reason": null
+      }
+    }
+  },
+  "review_method": "stack-governance S4 via stack_close.py",
+  "approval_risks": "spring-boot 2.7.18 OSS EOL (Jun 2023); postgresql 14 EOL Nov 2026; ai 2.x legacy streaming API per PRD snippet; kafka.version override in Maven for 3.2; dual auth JWT Java + Auth.js",
+  "approval_option": "A"
+}

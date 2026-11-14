@@ -1,0 +1,32 @@
+{
+  "option": "A",
+  "feature": "Kodo V5 storefront — ecommerce AI-first",
+  "risks": "medusa mock until backend deployed; AI SDK snippets rewritten at implementation",
+  "pins": {
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "5.4.5",
+    "tailwindcss": "3.4.13",
+    "ai": "4.3.19",
+    "@ai-sdk/anthropic": "1.2.12",
+    "@anthropic-ai/sdk": "0.98.0",
+    "openai": "4.73.0",
+    "@medusajs/js-sdk": "2.15.3",
+    "@medusajs/types": "2.15.3",
+    "@upstash/ratelimit": "2.0.8",
+    "@upstash/redis": "1.38.0",
+    "zustand": "4.5.5",
+    "zod": "3.23.8",
+    "clsx": "2.1.1",
+    "lucide-react": "0.445.0"
+  },
+  "evidence": {
+    "ai": "resolved",
+    "@anthropic-ai/sdk": "resolved",
+    "openai": "resolved",
+    "@medusajs/js-sdk": "resolved",
+    "next": "registry",
+    "react": "registry"
+  }
+}

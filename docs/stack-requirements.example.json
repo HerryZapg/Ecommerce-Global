@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "source": "docs/PLAN.md section or user story / ticket",
+  "requirement_summary": "Short description of what you are building or changing",
+  "last_updated": "2026-05-18",
+  "required_technologies": [
+    {
+      "id": "python",
+      "name": "Python",
+      "recommended": "3.12",
+      "required": true,
+      "rationale": "Backend API runtime"
+    },
+    {
+      "id": "node",
+      "name": "Node.js",
+      "recommended": "22",
+      "required": true,
+      "rationale": "Next.js frontend"
+    },
+    {
+      "id": "next",
+      "name": "Next.js",
+      "package": "next",
+      "recommended": "16.1.x",
+      "required": true,
+      "rationale": "Frontend framework"
+    },
+    {
+      "id": "fastapi",
+      "name": "FastAPI",
+      "package": "fastapi",
+      "recommended": "0.115+",
+      "required": true,
+      "rationale": "REST API"
+    },
+    {
+      "id": "sqlite",
+      "name": "SQLite",
+      "recommended": "3.45+",
+      "required": true,
+      "rationale": "MVP database per AGENTS.md"
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter API",
+      "required": true,
+      "rationale": "AgenIA sidebar"
+    }
+  ]
+}

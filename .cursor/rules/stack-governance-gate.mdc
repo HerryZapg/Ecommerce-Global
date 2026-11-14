@@ -1,0 +1,55 @@
+---
+description: Stack audit before scaffold — stack-governance Phase 0, C7 budget, stack approved gate
+alwaysApply: true
+---
+
+# Stack governance gate (optional amplifier)
+
+Thin duplicate of **G-STACK-GATE** in the global skill `~/.cursor/skills/stack-governance/SKILL.md`.
+Install when mega-specs skip the skill without `@` (see skill `references/triggering.md`). `EJECUTA` / `implement now` are **not** skill description triggers — this rule enforces the gate instead. Full pipeline S0–S6 lives in the skill.
+
+Apply **stack-governance** before changing dependency manifests or scaffolding.
+
+## PRIORITY — user message contains `stack approved`
+
+If the **current user message** includes **`stack approved`** or **`stack approved with risks`**:
+
+1. **Do not** start another S1/S2 audit or ask for `continuar stack` again.
+2. **Do** G-STACK-CLOSE in this response (mandatory): Write `docs/approved-pins.json` → Shell `stack_close.py` → paste **Stack cerrado** checklist → S6 bootstrap numbered plan.
+3. App code only **after** steps 1–2.
+4. After bootstrap + `npm install` / `mvn`, run `py -3 scripts/lib/stack_contract.py --strict` (DRIFT/MISSING → exit 1).
+
+Skipping S4–S6 after approval is a rule violation.
+
+## When this rule fires extra strictly
+
+- User pastes a **mega-spec**, PRD, or pin-set JSON and asks to **implement / ejecutar / build now**.
+- User asks to create `package.json`, `pyproject.toml`, or run `npm create` / `npx create-*` / equivalent.
+- Greenfield or HYBRID with **no** `stack approved` in the thread yet.
+
+## Required sequence
+
+1. **Phase 0** — print `MODE = A | B | HYBRID` and audit depth (`lite` | `standard` | `full`). Mega-spec with pins → **`standard`** (see skill `references/context7-budget.md`).
+2. **Turn 1** — Context7 on tier-1 (AI, payments, auth, spec snippet imports); `npm view` / `pip index` for standard pins; summary table with evidence column (`resolved` | `registry` | `pending`).
+3. If tier-1/2 still `pending` due to C7 budget → emit `[C7-BUDGET]` and **stop**; user replies **`continuar stack`** for turn 2.
+4. **Do not** scaffold, install deps, or write app code until the user sends **`stack approved`** or **`stack approved with risks`** (list accepted risks).
+
+## After approval (G-STACK-CLOSE — same thread)
+
+When the user sends **`stack approved`** (or **with risks**):
+
+1. Write `docs/approved-pins.json` from the frozen audit table.
+2. Run `stack_close.py` (see skill `references/stack-close.md`) and paste the **Stack cerrado (S4-S6)** checklist.
+3. Emit numbered **S6 bootstrap** before app code.
+4. Run `py -3 scripts/lib/stack_contract.py --strict` from repo root after deps install.
+
+Do not end the turn on "waiting for approval" if approval was already given.
+
+## Allowed without approval
+
+- Read-only: Glob, Read, Grep, Context7, registry version checks.
+- Answering questions that do not add dependencies.
+
+## Repo toolchain (if present)
+
+After approval: `stack_close.py --repo <path> --pins docs/approved-pins.json --scaffold-if-missing` (S4-S5), then S6 bootstrap in chat.
